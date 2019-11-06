@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CST2335Project</string>
+    <string name="splash_textview_text">CST2335Project</string>
+    <string name="main_btnCharging">Electric Car Charging Station finder</string>
+    <string name="main_btnRecipe">Recipe search engine</string>
+    <string name="main_btnCurrency">Foreign currency conversion api</string>
+    <string name="main_btnNews">News Api.org headlines api</string>
+    <string name="main_textView">CST2335 Group Project</string>
+</resources>
