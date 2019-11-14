@@ -5,5 +5,17 @@
     <string name="main_btnRecipe">Recipe search engine</string>
     <string name="main_btnCurrency">Foreign currency conversion api</string>
     <string name="main_btnNews">News Api.org headlines api</string>
+    <string name="main_btnAbout">About app</string>
+    <string name="main_btnUpdate">Check for Updates...</string>
     <string name="main_textView">CST2335 Group Project</string>
+    <string name="lblLat">Enter Latitude</string>
+    <string name="txtLatHint">Enter Latitude</string>
+    <string name="lblLong">Enter Longitude</string>
+    <string name="txtLongHint">Enter Longitude</string>
+    <string name="btnSearch">Search Car Charging Station</string>
+    <string name="btnMap">Load directions in google maps</string>
+    <string name="txtDialogTitle">CST2335 Project</string>
+    <string name="txtDialogInfo">Version 1.0.0\nDeveloped by:
+        \nSamit Majumder\nHimani Shah\nDishita Patel\nJaymin Desai"</string>
+
 </resources>
