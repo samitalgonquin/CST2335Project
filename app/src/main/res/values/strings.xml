@@ -17,5 +17,10 @@
     <string name="txtDialogTitle">CST2335 Project</string>
     <string name="txtDialogInfo">Version 1.0.0\nDeveloped by:
         \nSamit Majumder\nHimani Shah\nDishita Patel\nJaymin Desai"</string>
+    <string name="favourites">Favourites</string>
+    <string name="help">Help</string>
+    <string name="addFav">Add to favourites</string>
+    <string name="removeFav">Remove from favourites</string>
+
 
 </resources>
