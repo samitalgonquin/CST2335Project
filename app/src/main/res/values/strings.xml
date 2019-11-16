@@ -16,11 +16,15 @@
     <string name="btnMap">Load directions in google maps</string>
     <string name="txtDialogTitle">CST2335 Project</string>
     <string name="txtDialogInfo">Version 1.0.0\nDeveloped by:
-        \nSamit Majumder\nHimani Shah\nDishita Patel\nJaymin Desai"</string>
+        \nSamit Majumder\nHimani Shah\nDishita Patel\nJaymin Desai</string>
+    <string name="txtDialogTitle2">Error!!</string>
+    <string name="txtDialogInfo2">Latitude and longitude can\'t be left blank!!</string>
     <string name="favourites">Favourites</string>
     <string name="help">Help</string>
     <string name="addFav">Add to favourites</string>
     <string name="removeFav">Remove from favourites</string>
+    <string name="lblTitle_all">All Electric Charging Stations</string>
+    <string name="lblTitle_fav">My favourite Electric Charging Stations</string>
 
 
 </resources>

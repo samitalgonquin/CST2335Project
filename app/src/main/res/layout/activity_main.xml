@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorCustom"
@@ -11,19 +12,22 @@
         android:orientation="horizontal"
         android:layout_weight="1" >
 
-        <Button
+        <ImageButton
             android:id="@+id/btnCharging"
             android:layout_width="0dip"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:src="@drawable/charging"
             android:text="@string/main_btnCharging"
-            android:textAllCaps="false" />
+            android:textAllCaps="false"
+             />
 
-        <Button
+        <ImageButton
             android:id="@+id/btnRecipe"
             android:text="@string/main_btnRecipe"
             android:textAllCaps="false"
             android:layout_width="0dip"
+            android:src="@drawable/recipe"
             android:layout_height="match_parent"
             android:layout_weight="1" />
     </LinearLayout>
@@ -34,19 +38,21 @@
         android:orientation="horizontal"
         android:layout_weight="1" >
 
-        <Button
+        <ImageButton
             android:id="@+id/btnCurrency"
             android:text="@string/main_btnCurrency"
             android:textAllCaps="false"
             android:layout_width="0dip"
+            android:src="@drawable/currency"
             android:layout_height="match_parent"
             android:layout_weight="1" />
 
-        <Button
+        <ImageButton
             android:id="@+id/btnNews"
             android:text="@string/main_btnNews"
             android:textAllCaps="false"
             android:layout_width="0dip"
+            android:src="@drawable/news"
             android:layout_height="match_parent"
             android:layout_weight="1"/>
     </LinearLayout>
@@ -57,19 +63,21 @@
         android:orientation="horizontal"
         android:layout_weight="1" >
 
-        <Button
+        <ImageButton
             android:id="@+id/btnAbout"
             android:text="@string/main_btnAbout"
             android:textAllCaps="false"
             android:layout_width="0dip"
+            android:src="@drawable/about"
             android:layout_height="match_parent"
             android:layout_weight="1" />
 
-        <Button
+        <ImageButton
             android:id="@+id/btnUpdate"
             android:text="@string/main_btnUpdate"
             android:textAllCaps="false"
             android:layout_width="0dip"
+            android:src="@drawable/update"
             android:layout_height="match_parent"
             android:layout_weight="1" />
     </LinearLayout>

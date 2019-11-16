@@ -8,4 +8,6 @@
     <color name="colorGray">#DCDCDC</color>
     <color name="skyBlue">#87CEEB</color>
     <color name="yellow">#FFEB3B</color>
+    <color name="actionTextColor">#E64A19</color>
+    <color name="colorBg">#FBE9E7</color>
 </resources>
