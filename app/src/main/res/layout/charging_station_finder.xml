@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorCustom"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorCustom"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+
+        <TextView
+            android:id="@+id/lblLat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:text="@string/lblLat" />
+
+        <Space
+            android:layout_width="40dp"
+            android:layout_height="1dp" />
+
+
+        <EditText
+            android:id="@+id/txtLat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/txtLatHint"
+            android:inputType="numberDecimal"
+            android:digits="0123456789-."
+            android:textColor="@color/colorWhite" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+
+        <TextView
+            android:id="@+id/lblLong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:text="@string/lblLong" />
+
+        <Space
+            android:layout_width="30dp"
+            android:layout_height="1dp" />
+
+
+        <EditText
+            android:id="@+id/txtLong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/txtLongHint"
+            android:textColor="@color/colorWhite"
+            android:digits="0123456789-."
+            android:inputType="numberDecimal" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:text="@string/btnSearch"
+        android:layout_centerInParent="true"
+        android:textAllCaps="false"
+        android:textColor="@color/colorWhite" />
+
+    </RelativeLayout>
+
+    <Space
+        android:layout_width="30dp"
+        android:layout_height="5dp" />
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/lblTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="sans-serif-thin"
+        android:text="@string/lblTitle_all"
+        android:textColor="@color/yellow"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+</RelativeLayout>
+
+    <Space
+        android:layout_width="30dp"
+        android:layout_height="5dp" />
+
+    <ListView
+        android:id="@+id/jsonListView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:textColor="@color/colorWhite"
+        android:transcriptMode="alwaysScroll" />
+
+    <ProgressBar
+        android:id="@+id/pBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:minHeight="50dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="invisible" />
+
+
+
+
+</LinearLayout>

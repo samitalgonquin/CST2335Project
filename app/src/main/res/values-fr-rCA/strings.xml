@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CST2335Projet</string>
+    <string name="splash_textview_text">CST2335Projet</string>
+    <string name="main_btnCharging">Moteur de recherche de voiture électrique</string>
+    <string name="main_btnRecipe">Moteur de recherche de recettes</string>
+    <string name="main_btnCurrency">Conversion de devise étrangère api</string>
+    <string name="main_btnNews">Nouvelles Api.org titres api</string>
+    <string name="main_btnAbout">A propos de l\'application</string>
+    <string name="main_btnUpdate">Vérifier les mises à jour...</string>
+    <string name="main_textView">CST2335 Projet de groupe</string>
+    <string name="lblLat">Entrez la latitude</string>
+    <string name="txtLatHint">Entrez la latitude</string>
+    <string name="lblLong">Entrez la longitude</string>
+    <string name="txtLongHint">Entrez la longitude</string>
+    <string name="btnSearch">Station de charge de voiture de recherche</string>
+    <string name="btnMap">Charger les directions dans google maps</string>
+    <string name="txtDialogTitle">CST2335 Projet</string>
+    <string name="txtDialogInfo">Version 1.0.0\nDéveloppé par:
+        \nSamit Majumder\nHimani Shah\nDishita Patel\nJaymin Desai</string>
+    <string name="txtDialogTitle2">Erreur!!</string>
+    <string name="txtDialogInfo2">La latitude et la longitude ne peuvent pas être laissées en blanc!!</string>
+    <string name="favourites">Favoris</string>
+    <string name="help">Aidez-moi</string>
+    <string name="addFav">Ajouter aux Favoris</string>
+    <string name="removeFav">Supprimer des favoris</string>
+    <string name="lblTitle_all">Toutes les stations de recharge électriques</string>
+    <string name="lblTitle_fav">Mes stations de recharge électriques préférées</string>
+    <string name="car_charging_station">Moteur de recherche de voiture électrique</string>
+    <string name="recipe_search">Moteur de recherche de recettes</string>
+    <string name="currency_conversion">Conversion de devise étrangère</string>
+    <string name="news_headlines">Titres de nouvelles</string>
+    <string name="btnCharging_hint">Station de charge de voiture de recherche</string>
+    <string name="snackBarText1">Chargement des bornes de recharge électriques ..... cela peut prendre un certain temps.</string>
+    <string name="toastText1">Données insérées avec succès</string>
+    <string name="toastText2">L\'insertion de données a échoué.</string>
+    <string name="toastText3">Station de charge retirée des favoris avec succès.</string>
+    <string name="toastText4">Cette borne de recharge ne figure pas dans les favoris</string>
+    <string name="toastText5">Aucune station de charge préférée trouvée.</string>
+    <string name="toastText6">Cette borne est déjà dans les favoris.</string>
+
+</resources>

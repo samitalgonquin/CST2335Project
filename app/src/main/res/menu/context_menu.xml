@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/addFav_item"
+        android:title="@string/addFav" />
+    <item
+        android:id="@+id/removeFav_item"
+        android:title="@string/removeFav" />
+</menu>

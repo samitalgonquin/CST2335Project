@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/colorCustom"
+    android:orientation="vertical">
+
+    <!--Toolbar-->
+    <include
+        android:id="@+id/ourToolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        layout="@layout/our_toolbar" />
+
+    <Space
+        android:layout_width="10dp"
+        android:layout_height="30dp" />
+
+    <TextView
+        android:id="@+id/txtStationDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorCustom"
+        android:paddingStart="10dp"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnMap"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="30dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:textColor="@color/colorWhite"
+        android:textAllCaps="false" />
+
+
+</LinearLayout>

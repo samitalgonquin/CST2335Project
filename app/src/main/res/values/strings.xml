@@ -25,6 +25,17 @@
     <string name="removeFav">Remove from favourites</string>
     <string name="lblTitle_all">All Electric Charging Stations</string>
     <string name="lblTitle_fav">My favourite Electric Charging Stations</string>
-
+    <string name="car_charging_station">Electric Car Charging Station finder</string>
+    <string name="recipe_search">Recipe search engine</string>
+    <string name="currency_conversion">Foreign currency conversion</string>
+    <string name="news_headlines">News headlines</string>
+    <string name="btnCharging_hint">Search Car Charging Station</string>
+    <string name="snackBarText1">Loading electric charging stations.....this may take a while.</string>
+    <string name="toastText1">Data inserted successfully</string>
+    <string name="toastText2">Data insert failed.</string>
+    <string name="toastText3">Charging station successfully removed from favourites.</string>
+    <string name="toastText4">This charging station not found in favourites</string>
+    <string name="toastText5">No favourite charging station found.</string>
+    <string name="toastText6">This charging station is already in favourites.</string>
 
 </resources>
