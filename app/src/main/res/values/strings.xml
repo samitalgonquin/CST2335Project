@@ -5,5 +5,37 @@
     <string name="main_btnRecipe">Recipe search engine</string>
     <string name="main_btnCurrency">Foreign currency conversion api</string>
     <string name="main_btnNews">News Api.org headlines api</string>
+    <string name="main_btnAbout">About app</string>
+    <string name="main_btnUpdate">Check for Updates...</string>
     <string name="main_textView">CST2335 Group Project</string>
+    <string name="lblLat">Enter Latitude</string>
+    <string name="txtLatHint">Enter Latitude</string>
+    <string name="lblLong">Enter Longitude</string>
+    <string name="txtLongHint">Enter Longitude</string>
+    <string name="btnSearch">Search Car Charging Station</string>
+    <string name="btnMap">Load directions in google maps</string>
+    <string name="txtDialogTitle">CST2335 Project</string>
+    <string name="txtDialogInfo">Version 1.0.0\nDeveloped by:
+        \nSamit Majumder\nHimani Shah\nDishita Patel\nJaymin Desai</string>
+    <string name="txtDialogTitle2">Error!!</string>
+    <string name="txtDialogInfo2">Latitude and longitude can\'t be left blank!!</string>
+    <string name="favourites">Favourites</string>
+    <string name="help">Help</string>
+    <string name="addFav">Add to favourites</string>
+    <string name="removeFav">Remove from favourites</string>
+    <string name="lblTitle_all">All Electric Charging Stations</string>
+    <string name="lblTitle_fav">My favourite Electric Charging Stations</string>
+    <string name="car_charging_station">Electric Car Charging Station finder</string>
+    <string name="recipe_search">Recipe search engine</string>
+    <string name="currency_conversion">Foreign currency conversion</string>
+    <string name="news_headlines">News headlines</string>
+    <string name="btnCharging_hint">Search Car Charging Station</string>
+    <string name="snackBarText1">Loading electric charging stations.....this may take a while.</string>
+    <string name="toastText1">Data inserted successfully</string>
+    <string name="toastText2">Data insert failed.</string>
+    <string name="toastText3">Charging station successfully removed from favourites.</string>
+    <string name="toastText4">This charging station not found in favourites</string>
+    <string name="toastText5">No favourite charging station found.</string>
+    <string name="toastText6">This charging station is already in favourites.</string>
+
 </resources>
